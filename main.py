@@ -10,5 +10,3 @@ def test_str_to_w():
     assert str_to_w("This is a sentence.") == ["This", "is", "a", "sentence."]
     assert str_to_w("1, 2, 3, 4, 5") == ["1,", "2,", "3,", "4,", "5"]
     assert str_to_w("") == []
-
-test_str_to_w()
